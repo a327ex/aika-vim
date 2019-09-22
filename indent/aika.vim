@@ -14,7 +14,7 @@ if exists("*GetAikaIndent")
   finish
 endif
 
-let s:open_patt = '\C\%(\<\%(fn\|if\|repeat\|do\|with\|switch\|when\|class\)\>\|(\|{\)'
+let s:open_patt = '\C\%(\<\%(fn\|if\|repeat\|do\|for\|with\|switch\|when\|class\)\>\|(\|{\)'
 let s:middle_patt = '\C\<\%(else\|elseif\)\>'
 let s:close_patt = '\C\%(\<\%(end\|until\)\>\|)\|}\)'
 
